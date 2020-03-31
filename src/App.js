@@ -1,4 +1,6 @@
 import React, { Component } from 'react';
+import GameBoard from "./components/GameBoard/GameBoard";
+import ColorPicker from "./components/ColorPicker/ColorPicker"
 import './App.css';
 
 class App extends Component {
@@ -6,6 +8,8 @@ class App extends Component {
     return (
       <div className="App">
         <header className="App-header">React Mastermind</header>
+        <GameBoard />
+        <ColorPicker />
       </div>
     );
   }
